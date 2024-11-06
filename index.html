@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Website</title>
+  </head>
+  <body>
+    <!--PROMOTION PAGE-->
+    <div class="bg-teal-600 px-4 py-3 text-white">
+      <p class="text-center text-sm font-medium">
+        PROMO HINGGA 50%!!!
+        <a href="#" class="inline-block underline"
+          >Berlaku untuk hari ini saja</a
+        >
+      </p>
+    </div>
+    <!--END PROMOTION PAGE-->
+
+    <!--NAVBAR-->
+    <header class="bg-white">
+      <div class="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 sm:py-12 lg:px-8">
+        <div
+          class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between"
+        >
+          <div>
+            <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">
+              MALVINAMEL STORE
+            </h1>
+
+            <p class="mt-1.5 text-sm text-gray-500">
+              Belanja koleksi murah & praktis
+            </p>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <button
+              class="inline-flex items-center justify-center gap-1.5 rounded border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:outline-none focus:ring"
+              type="button"
+            >
+              <span class="text-sm font-medium"> View Website </span>
+            </button>
+
+            <button
+              class="inline-block rounded bg-teal-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-teal-700 focus:outline-none focus:ring"
+              type="button"
+            >
+              Chat Admin
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--END NAVBAR-->
+
+    <!--CALL TO ACTION-->
+    <section class="bg-gray-50">
+      <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+        <div class="mx-auto max-w-lg text-center">
+          <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit
+          </h2>
+
+          <p class="hidden text-gray-500 sm:mt-4 sm:block">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor
+            officia blanditiis repellat in, vero, aperiam porro ipsum laboriosam
+            consequuntur exercitationem incidunt tempora nisi?
+          </p>
+        </div>
+
+        <div class="mx-auto mt-8 max-w-xl">
+          <form action="#" class="sm:flex sm:gap-4">
+            <div class="sm:flex-1">
+              <input
+                type="text"
+                placeholder="Jam tangan pria dan wanita..."
+                class="w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-teal-400"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-teal-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+            >
+              <span class="text-sm font-medium"> Cari Barang </span>
+
+              <svg
+                class="size-5 rtl:rotate-180"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--END CALL TO ACTION-->
+
+    <!--PRODUCT LIST-->
+    <div class="container grid grid-cols-3 gap-6 max-xl mx-auto py-8">
+      <a href="https://wa.me/621234567??text=MALVINAMEL STORE saya mau order produk Small Headphones" "#" class="group block">
+        <img
+          src="https://images.unsplash.com/photo-1592921870789-04563d55041c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          alt=""
+          class="h-[350px] w-full object-cover sm:h-[450px]"
+        />
+
+        <div class="mt-1.5">
+          <p class="text-xs text-gray-500">Space Grey</p>
+
+          <div class="mt-1.5 flex gap-1">
+            <form>
+              <fieldset>
+                <legend class="sr-only">Color</legend>
+              </fieldset>
+
+              <div
+                class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75"
+              >
+                <div>
+                  <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                  <label
+                    for="ColorSg"
+                    class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Space Gray </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorS" class="sr-only" />
+
+                  <label
+                    for="ColorS"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Silver </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorP" class="sr-only" />
+
+                  <label
+                    for="ColorP"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorG" class="sr-only" />
+
+                  <label
+                    for="ColorG"
+                    class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                  <label
+                    for="ColorSb"
+                    class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="mt-3 flex justify-between text-sm">
+            <h3
+              class="text-gray-900 group-hover:underline group-hover:underline-offset-4"
+            >
+              Small Headphones
+            </h3>
+
+            <p class="text-gray-900">Rp 500.000</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://wa.me/621234567??text=MALVINAMEL STORE saya mau order produk Shirt"
+         class="group block"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1609709295948-17d77cb2a69b?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="h-[350px] w-full object-cover sm:h-[450px]"
+        />
+
+        <div class="mt-1.5">
+          <p class="text-xs text-gray-500">Space Grey</p>
+
+          <div class="mt-1.5 flex gap-1">
+            <form>
+              <fieldset>
+                <legend class="sr-only">Color</legend>
+              </fieldset>
+
+              <div
+                class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75"
+              >
+                <div>
+                  <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                  <label
+                    for="ColorSg"
+                    class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Space Gray </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorS" class="sr-only" />
+
+                  <label
+                    for="ColorS"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Silver </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorP" class="sr-only" />
+
+                  <label
+                    for="ColorP"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorG" class="sr-only" />
+
+                  <label
+                    for="ColorG"
+                    class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                  <label
+                    for="ColorSb"
+                    class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="mt-3 flex justify-between text-sm">
+            <h3
+              class="text-gray-900 group-hover:underline group-hover:underline-offset-4"
+            >
+              Shirt
+            </h3>
+
+            <p class="text-gray-900">Rp 800.000</p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="group block">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1671571592084-1fef547e09b5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="h-[350px] w-full object-cover sm:h-[450px]"
+        />
+
+        <div class="mt-1.5">
+          <p class="text-xs text-gray-500">Space Grey</p>
+
+          <div class="mt-1.5 flex gap-1">
+            <form>
+              <fieldset>
+                <legend class="sr-only">Color</legend>
+              </fieldset>
+
+              <div
+                class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75"
+              >
+                <div>
+                  <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                  <label
+                    for="ColorSg"
+                    class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Space Gray </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorS" class="sr-only" />
+
+                  <label
+                    for="ColorS"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Silver </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorP" class="sr-only" />
+
+                  <label
+                    for="ColorP"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorG" class="sr-only" />
+
+                  <label
+                    for="ColorG"
+                    class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                  <label
+                    for="ColorSb"
+                    class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="mt-3 flex justify-between text-sm">
+            <h3
+              class="text-gray-900 group-hover:underline group-hover:underline-offset-4"
+            >
+              Hat
+            </h3>
+
+            <p class="text-gray-900">Rp 300.000</p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="group block">
+        <img
+          src="https://images.unsplash.com/photo-1512374382149-233c42b6a83b?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="h-[350px] w-full object-cover sm:h-[450px]"
+        />
+
+        <div class="mt-1.5">
+          <p class="text-xs text-gray-500">Space Grey</p>
+
+          <div class="mt-1.5 flex gap-1">
+            <form>
+              <fieldset>
+                <legend class="sr-only">Color</legend>
+              </fieldset>
+
+              <div
+                class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75"
+              >
+                <div>
+                  <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                  <label
+                    for="ColorSg"
+                    class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Space Gray </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorS" class="sr-only" />
+
+                  <label
+                    for="ColorS"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Silver </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorP" class="sr-only" />
+
+                  <label
+                    for="ColorP"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorG" class="sr-only" />
+
+                  <label
+                    for="ColorG"
+                    class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                  <label
+                    for="ColorSb"
+                    class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="mt-3 flex justify-between text-sm">
+            <h3
+              class="text-gray-900 group-hover:underline group-hover:underline-offset-4"
+            >
+              Shoes
+            </h3>
+
+            <p class="text-gray-900">Rp 2.500.000</p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="group block">
+        <img
+          src="https://images.unsplash.com/photo-1592921870789-04563d55041c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          alt=""
+          class="h-[350px] w-full object-cover sm:h-[450px]"
+        />
+
+        <div class="mt-1.5">
+          <p class="text-xs text-gray-500">Space Grey</p>
+
+          <div class="mt-1.5 flex gap-1">
+            <form>
+              <fieldset>
+                <legend class="sr-only">Color</legend>
+              </fieldset>
+
+              <div
+                class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75"
+              >
+                <div>
+                  <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                  <label
+                    for="ColorSg"
+                    class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Space Gray </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorS" class="sr-only" />
+
+                  <label
+                    for="ColorS"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Silver </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorP" class="sr-only" />
+
+                  <label
+                    for="ColorP"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorG" class="sr-only" />
+
+                  <label
+                    for="ColorG"
+                    class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                  <label
+                    for="ColorSb"
+                    class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="mt-3 flex justify-between text-sm">
+            <h3
+              class="text-gray-900 group-hover:underline group-hover:underline-offset-4"
+            >
+              Small Headphones
+            </h3>
+
+            <p class="text-gray-900">$299</p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="group block">
+        <img
+          src="https://images.unsplash.com/photo-1592921870789-04563d55041c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          alt=""
+          class="h-[350px] w-full object-cover sm:h-[450px]"
+        />
+
+        <div class="mt-1.5">
+          <p class="text-xs text-gray-500">Space Grey</p>
+
+          <div class="mt-1.5 flex gap-1">
+            <form>
+              <fieldset>
+                <legend class="sr-only">Color</legend>
+              </fieldset>
+
+              <div
+                class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75"
+              >
+                <div>
+                  <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                  <label
+                    for="ColorSg"
+                    class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Space Gray </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorS" class="sr-only" />
+
+                  <label
+                    for="ColorS"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Silver </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorP" class="sr-only" />
+
+                  <label
+                    for="ColorP"
+                    class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorG" class="sr-only" />
+
+                  <label
+                    for="ColorG"
+                    class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                  <label
+                    for="ColorSb"
+                    class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                  >
+                    <span class="sr-only"> Pink </span>
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="mt-3 flex justify-between text-sm">
+            <h3
+              class="text-gray-900 group-hover:underline group-hover:underline-offset-4"
+            >
+              Small Headphones
+            </h3>
+
+            <p class="text-gray-900">$299</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!--END PRODUCT LIST-->
+
+    <!--FOOTER-->
+    <!--FOOTER-->
+  </body>
+</html>
